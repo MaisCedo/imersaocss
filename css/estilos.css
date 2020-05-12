@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+body{
+  background: gray;
+  background-size: 100vh;
+  font-family: Arial; 
+  height: 100vh;
+}
+
+.menu{
+  background-color: white;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style:none;
+}
+
+a{
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  background:red;
+}
+
+.site-subtitle,
+.site-title {
+  color: whitesmoke;
+  text-align:center;
+  }
+
+.site-subtitle {
+  font-style: italic;  
+}
